@@ -3,9 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dream City: Mumbai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h2>Hello World</h2>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Dream City: Mumbai</h1>
+        <p>Experience the Magic of Maximum City</p>
+    </header>
+    <hr>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#city-description">City Description</a> |
+        <a href="#attractions">Attractions</a> |
+        <a href="#city-statistics">City Statistics</a> |
+        <a href="#citizen-feedback">Citizen Feedback</a> |
+        <a href="#quotes">Quotes</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+
+    <!-- City Description Section -->
+    <section id="city-description">
+        <h2>Welcome to Mumbai</h2>
+        <img src="https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg" alt="Mumbai Skyline">
+        <p>Mumbai, the city of dreams, is a vibrant metropolis that never sleeps. It is a melting pot of cultures, a blend of tradition and modernity.</p>
+    </section>
+    <hr>
+
+    <!-- Attractions Section -->
+    <section id="attractions">
+        <h2>Top Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>Gateway of India</li>
+            <li>Mumbai Marine Drive</li>
+            <li>Chhatrapati Shivaji Maharaj Terminus</li>
+        </ol>
+        <h3>Local Favorites</h3>
+        <ul>
+            <li>Colaba Causeway Shopping</li>
+            <li>Bollywood Film City Tour</li>
+            <li>Elephanta Caves Exploration</li>
+        </ul>
+    </section>
+    <hr>
+
+    <!-- City Statistics Section -->
+    <section id="city-statistics">
+        <h2>City Statistics</h2>
+        <table border="1">
+            <tr>
+                <th>Population</th>
+                <th>Land Area</th>
+            </tr>
+            <tr>
+                <td>20 million</td>
+                <td>603 sq km</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <!-- Citizen Feedback Section -->
+    <section id="citizen-feedback">
+        <h2>Citizen Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="city-feedback">City Feedback:</label>
+            <textarea id="city-feedback" name="city-feedback" rows="3" cols="50" required></textarea><br>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select><br>
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+
+    <!-- Quotes Section -->
+    <section id="quotes">
+        <h2>Quotes from Citizens</h2>
+        <p>"Mumbai, where dreams become reality. A city that never stops, never settles." - <span>Simran, Mumbai Resident</span></p>
+        <p>"The spirit of Mumbai is contagious; it fills you with energy and hope." - <span>Rahul, Visitor</span></p>
+    </section>
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><em>Visit us at:</em> Mumbai Tourism Office, XYZ Street, Mumbai</p>
+        <p><em>Email:</em> info@mumbaitourism.com</p>
+        <p><em>Phone:</em> +91 123 456 7890</p>
+    </section>
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Explore the wonders of Mumbai - Your Dream Destination</p>
+    </footer>
+
 </body>
 </html>
